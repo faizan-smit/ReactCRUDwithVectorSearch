@@ -1,0 +1,166 @@
+
+
+.comment {
+    border: 1px solid black;
+    margin-top: 1rem;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+
+#the-form{
+
+    min-width: 380px;
+    background-color: blueviolet;
+    color: #ffffff;
+
+    border-radius: 1rem;
+
+
+}
+
+#the-form>form input{
+
+    width: 220px;
+    height: 30px;
+    border-radius: 5rem;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0.5rem;
+
+}
+
+#the-form>form textarea{
+
+    width: 200px;
+    height: 150px;
+    border-radius: 1rem;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+
+#the-form>form label{
+
+    width: 70px;
+    height: 50px;
+    font-size: 20px;
+
+
+}
+
+#the-form>form{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+#the-form>form button{
+
+    width: 120px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #ffffff;
+    border-radius: 1rem;
+    margin: 0.3rem;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.the-body{
+
+
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 100vh;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.align-items-center {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.post-Card{
+
+    min-width: 350px;
+    min-height: 100px;
+    background-color: chocolate;
+    color: #ffffff;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 0.3rem;
+
+}
+
+.post-Card-title{
+
+    font-weight:  bold;
+    margin-bottom: 0.5rem;
+
+}
+
+.post-Card-content{
+
+    margin-bottom: 1rem;
+
+}
+
+.edit-button{
+
+    width: 100px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid #00cc00;
+    color: #00cc00;
+    margin-right: 10px;
+    border-radius: 1rem;
+    cursor: pointer;
+
+}
+
+.delete-button{
+
+    width: 100px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid #ff0000;
+    color: #ff0000;
+    margin-right: 10px;
+    border-radius: 1rem;
+    cursor: pointer;
+
+}
+
+.save-btn{
+
+    width: 100px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid #00cc00;
+    color: #00cc00;
+    margin-right: 10px;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+
+}

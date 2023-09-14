@@ -1,0 +1,29 @@
+{
+  "name": "mongoauth",
+  "version": "1.0.0",
+  "description": "Authentication with jwt and mongodb",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "nodemon server.mjs"
+  },
+  "author": "Faizan",
+  "license": "ISC",
+  "dependencies": {
+    "@pinecone-database/pinecone": "^1.0.0",
+    "bcrypt-inzi": "^1.0.7",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongodb": "4.1",
+    "nanoid": "^4.0.2",
+    "nodemon": "^3.0.1",
+    "openai": "^4.6.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.2"
+  }
+}
